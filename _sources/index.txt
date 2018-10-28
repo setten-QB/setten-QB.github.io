@@ -6,7 +6,7 @@
 Hiroaki Tanaka
 ==============================
 
-.. image:: ./image/DSC02090.png
+.. image:: ./image/DSC02090_circ.png
   :scale: 30%
   :height: 1142px
   :width: 1418px
