@@ -1,0 +1,33 @@
+.. CV documentation master file, created by
+   sphinx-quickstart on Sun Oct 28 16:33:17 2018.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Hiroaki Tanaka
+==============================
+
+.. image:: ./image/DSC02090.png
+  :scale: 30%
+  :height: 1142px
+  :width: 1418px
+  :align: right
+
+I'm at Urban Sensing Research Group, Research Laboratories, NTT DOCOMO, Inc. from April 2018.
+I had been a master student in an Augmented Human Communication Laboratory at Nara Institute of Science and Technology (NAIST) from April 2016 to March 2018.
+I received my B.S. degree in science and engineering from Shimane University in 2016 and M.E. degree in computer science in 2018 from NAIST.
+
+I'm interested in the following topics:
+
+- application of data science (e.g. machine learning, statistics) to solving problems in the real world;
+- machine learning, the theory of it;
+- statistics, mathematical statistics.
+
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+
+   CV
+   CV(Japanese)
+   Contact
+   Link
