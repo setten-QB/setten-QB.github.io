@@ -1,0 +1,292 @@
+@charset "UTF-8";
+
+/* 共通部分
+-------------------------------*/
+html {
+    font-size: 100%;
+}
+body {
+    
+    font-family: 'Playfair Display', serif, "Yu Gothic Medium","游ゴシック Medium",YuGothic,"游ゴシック体","ヒラギノ角ゴ Pro W3","PT Sans",sans-serif;
+    line-height: 1.7;
+    color: #222222;
+}
+a {
+    text-decoration:  none;
+}
+img {
+    max-width: 100%;
+}
+
+/* HEADER
+------------------------------*/
+.logo {
+    width: 210px;
+    margin-top: 14px;
+}
+
+.main-nav{
+    display: flex; 
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a {
+    color: #fff;
+}
+.main-nav a:hover {
+    color: #0bd;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #222222;
+    height: 90px;
+}
+
+
+/* home
+-------------------------------*/
+img.main-pic {
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    margin: 90px 20px 70px 10px;
+}
+.main {
+    margin: auto;
+    max-width: 940px;
+    padding: 10px;
+}
+/*.honbun {
+    text-align: 150px;
+    display: inline-block;
+    width: 300px;
+    margin-left: 20px;
+    vertical-align: 430px;
+}*/
+.honbun h2{
+    padding-left: 150px;
+    margin: 10px ;
+}
+.honbun li  {
+    margin: 5px;
+}
+.about {
+    margin: 10px 5px;
+}
+.yomi {
+    font-family: "PT Sans";
+    margin: 0 0 3px 20px;
+    color: #727272;
+}
+
+.education {
+	list-style: url(./img/012.png) inside;   
+}
+.education h3 {
+    margin: 10px 0 5px 0 ;
+}
+.education li {
+    margin: 10px 0 2px 0;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 13%;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.flex .honbun {
+    width: 49%;
+  
+}
+
+
+/* 選択画面（３つ）　
+---------------------------*/
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+    margin-top: 7%;
+    margin-bottom: 100px; 
+   /* margin: 10% 10% 100px 10%;*/
+}
+.link {
+    width: 100%;
+    height: 400px;
+    object-position: 100% 150%;
+    text-align: center;
+}
+/* ボタン */
+.button {
+    font-size: 1,375rem;
+    background: #222;
+    color: #fff;
+    border-radius: 0px;
+    padding: 6px 40px;
+}
+.button:hover {
+    background: #0090aa;
+}
+.link p {
+    margin: 10%  auto 20% auto;
+}
+
+/* フッター
+---------------------------*/
+footer {
+    background: #432;
+    text-align: center;
+    padding: 26px 0;
+}
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+/* research
+--------------------------*/
+#research .page-header {
+    background-image: url(./img/research01.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 25vh;
+}
+#research h1 {
+    text-align: center;
+    margin: 20px;
+}
+.r-border {
+    display: flex;
+    align-items: center;
+}
+.r-border:before,
+.r-border:after {
+    content: "";
+    height: 1px;
+    flex-grow: 1;
+    background-color: #666;
+}
+.r-border:before {
+    margin-right: 1rem;
+}
+.r-border:after {
+    margin-left: 1rem;
+}
+.research-naiyou {
+    margin: 30px 13%;
+}
+.research-naiyou a {
+    color: #024e8b;
+}
+.research-naiyou a:hover {
+    color: rgb(59, 167, 255);
+}
+.research-naiyou .r-3 {
+    color: #000;
+}
+.r-1 {
+    list-style: none;
+    margin: 20px 0 3px 0;
+}
+.r-2 {
+    list-style-type: square;
+    color: #024e8b;
+    list-style-position: inside;
+}
+.r-3 {
+    list-style-type: square;
+    color: #024e8b;
+    list-style-position: inside;
+}
+
+/* job
+-------------------------------*/
+#job .page-header {
+    background-image: url(./img/job01.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 25vh;
+}
+#job h1 {
+    text-align: center;
+    margin: 20px;
+}
+#job h2 {
+    margin: 20px 0 3px 0;
+}
+.j-border {
+    display: flex;
+    align-items: center;
+}
+.j-border:before,
+.j-border:after {
+    content: "";
+    height: 1px;
+    flex-grow: 1;
+    background-color: #666;
+}
+.j-border:before {
+    margin-right: 1rem;
+}
+.j-border:after {
+    margin-left: 1rem;
+}
+.job-naiyou{
+    margin: 30px 13%;
+}
+.job-naiyou a {
+    color: #024e8b;
+}
+.job-naiyou a:hover {
+    color: rgb(59, 167, 255);
+}
+
+/* skill
+------------------------------*/
+#skill .page-header {
+    background-image: url(./img/skill01.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 25vh;
+}
+#skill h1 {
+    text-align: center;
+    margin: 20px;
+}
+#skill h2 {
+    margin: 20px 0 3px 0;
+}
+.s-border {
+    display: flex;
+    align-items: center;
+}
+.s-border:before,
+.s-border:after {
+    content: "";
+    height: 1px;
+    flex-grow: 1;
+    background-color: #666;
+}
+.s-border:before {
+    margin-right: 1rem;
+}
+.s-border:after {
+    margin-left: 1rem;
+}
+.skill-naiyou{
+    margin: 30px 13%;
+}
