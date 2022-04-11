@@ -87,7 +87,7 @@ img.main-pic {
 }
 
 .education {
-	list-style: url(./img/012.png) inside;   
+	list-style: url(img/012.png) inside;   
 }
 .education h3 {
     margin: 10px 0 5px 0 ;
@@ -157,7 +157,7 @@ footer p {
 /* research
 --------------------------*/
 #research .page-header {
-    background-image: url(./img/research01.jpeg);
+    background-image: url(img/research01.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -214,7 +214,7 @@ footer p {
 /* job
 -------------------------------*/
 #job .page-header {
-    background-image: url(./img/job01.jpeg);
+    background-image: url(img/job01.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -257,7 +257,7 @@ footer p {
 /* skill
 ------------------------------*/
 #skill .page-header {
-    background-image: url(./img/skill01.jpeg);
+    background-image: url(img/skill01.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
